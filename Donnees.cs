@@ -34,7 +34,7 @@ static partial class Program
     const float ESPACE_BRIQUES = 6;        // espace entre deux briques, et entre une brique et le bord
     const float HAUTEUR_BRIQUE = 22;
     const float MARGE_HAUT_BRIQUES = 60;   // y du haut de la première ligne de briques
-    const float LARGEUR_BRIQUE = 0;        // À CALCULER (exercice 5)
+    const float LARGEUR_BRIQUE = (LARGEUR - (COLONNES_BRIQUES + 1) * ESPACE_BRIQUES) / COLONNES_BRIQUES;        // À CALCULER (exercice 5)
 
     // Règles
     const int POINTS_PAR_BRIQUE = 10;
